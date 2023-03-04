@@ -83,6 +83,9 @@ audio::-webkit-media-controls-rewind-button
   audio::-webkit-media-controls-return-to-realtime-button {
   display: none;
 }
+p {
+  color: white;
+}
 
 /* timeline */
 
