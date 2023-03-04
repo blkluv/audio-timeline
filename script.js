@@ -62,7 +62,7 @@ if (!isChrome) speakButton.style.visibility = "hidden";
 var time = {};
 var active = false;
 function swapRec() {
-  talkButton.innerHTML = active ? "🤙 Talk" : "✋ Stop";
+  talkButton.innerHTML = active ? "🎙️ Talk" : "✋ Stop";
   if (!active) {
     startRecording();
   } else {

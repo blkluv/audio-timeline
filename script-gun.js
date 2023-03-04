@@ -60,7 +60,7 @@ talkButton.addEventListener("click", swapRec);
 var time = {};
 var active = false;
 function swapRec() {
-  talkButton.innerHTML = active ? "🤙 Talk" : "✋ Stop";
+  talkButton.innerHTML = active ? "🎙️ Talk" : "✋ Stop";
   if (!active) {
     startRecording();
   } else {

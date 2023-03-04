@@ -20,7 +20,7 @@
 
 body {
   font-family: HK Grotesk;
-  background-color: var(--color-bg);
+  background-color: black;
   margin: 15px;
 }
 
@@ -113,8 +113,8 @@ audio::-webkit-media-controls-rewind-button
 }
 
 .vis-item.vis-selected {
-  border-color: green;
-  background-color: lightgreen;
+  border-color: #00FFFF;
+  background-color: #000000;
 }
 
 .vis-time-axis .vis-text {
@@ -134,7 +134,7 @@ audio::-webkit-media-controls-rewind-button
 
 .vis-time-axis .vis-grid.vis-major {
   border-width: 2px;
-  border-color: #F991A3;
+  border-color: #DA75F7;
 }
 
 .vis-item.vis-range {
